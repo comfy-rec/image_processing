@@ -78,10 +78,134 @@ embossing, blurring(low pass filter), sharpening(high pass filter), edge detecti
 
 zero padding, smoothing, gaussian filter, unsharp masking, high-boost filter
 
-ch7 edge
+ch7 edge detection
 
+homogeneity operator, difference operator, threshold, shift difference, diff_operator_hor
 
+roberts, sobel, prewitt
 
+compass gradient operator, laplacian, log(laplacian of gaussian), dog(difference of gaussians)
 
+color image edge detection
+
+ch8 geometric processing
+
+forward, backward mapping, shift, transformation, matching, overlap, hole
+
+interpolation - nearest neighbor, bilinear, cubic convolution, b-spline
+
+scaling
+
+magnification, scaling up, zooming, up samling
+
+minification, scaling down, decimation, down sampling
+
+linear geometric transformation - translation, rotation, scaling
+
+nonlinear geometric transformation - warping, morphing
+
+aliasing - blurring으로 해결
+
+median sub sampling, mean sub sampling
+
+ch9
+
+translation, mirroring hor, mirroring ver, rotation
+
+warping, rubber sheet transform, mesh warping
+
+morphing, cross-dissolve, transfer morphing, distorted morphing
+
+ch10 frame processing
+
+combination processing, composition processing
+
+frame sum, frame sub, frame mul, frame div
+
+average operation
+
+frame and, frame or, frame comb
+
+frame to frame prediction, motion prediction, motion compensation
+
+intra picture, predicted pictures, bi-directional predicted pictures
+
+ch11 morphology
+
+이동, 반사
+
+dilation, erosion
+
+binary erosion, binary dilation
+
+열림 - erosion -> dilation
+
+닫힘(채움) - dilation -> erosion
+
+skeletonization
+
+gray erosion, gray dilation
+
+ch12 filter
+
+finite impulse response, infinite impulse response, convolution
+
+spatial filtering
+
+low pass filter, gaussian filter
+
+high pass filter, sharpening filter
+
+linear spatial filtering noise elimination
+
+mean filter
+
+nonlinear spatial filtering noise elimination
+
+median filter, weighted median filter
+
+max filter, min filter
+
+opening filter - min -> max
+
+closing filter - max -> min
+
+ch13 image transformation
+
+fourier transform, discrete fourier transformation, fast fourier transformation
+
+scrambling, butterfly, fft, ifft
+
+spectrum, shuffling
+
+discrete cosine transform
+
+convolution theorem
+
+lpf frequency, hpf frequency
+
+wavelet transformation, daubechies, octave tree structure
+
+ch14 digital image compression
+
+encoding, decoding
+
+statistical, subjective, spatial, temporal redundancy
+
+lossless, entropy coding, source coding, differential coding
+
+huffman coding - variable length conding, prefix property
+
+loss, interpolation, quantization, dct, wavelet transform
+
+jpeg(joint photographic experts group)
+
+mpeg(moving picture experts group) - gop(group of pictures)
 
 h.264
+
+ch15 wavelet transform
+
+filter bank, lpf, hpf, LL, LH, HL, HH
+
+convolution filtering, encoding, decoding, down sampling, up sampling
