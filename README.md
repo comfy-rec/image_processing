@@ -203,9 +203,3 @@ jpeg(joint photographic experts group)
 mpeg(moving picture experts group) - gop(group of pictures)
 
 h.264
-
-ch15 wavelet transform
-
-filter bank, lpf, hpf, LL, LH, HL, HH
-
-convolution filtering, encoding, decoding, down sampling, up sampling
