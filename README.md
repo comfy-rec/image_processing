@@ -1,8 +1,8 @@
 # image_processing
 
-ch1
+## ch1
 
-technique
+### technique
 
 digital image enhancement - equalization, sharpening, noise elimination
 
@@ -16,7 +16,7 @@ digital image understanding
 
 digital image compression - lossless, loss
 
-algorithm
+### algorithm
 
 point processing - arithmetic, logical operation
 
@@ -28,7 +28,7 @@ frame processing
 
 application field - composition, morphing, warping, x-ray, 초음파, mri, ct, machine vision, biometrics, watermarking, dip, pdf
 
-ch2
+## ch2
 
 contrast - 명도 대비
 
@@ -38,7 +38,7 @@ sampling theory
 
 spatial resolution, intensity resolution, color resolution
 
-ch3
+## ch3
 
 영상 파일 포맷의 종류 - BMP, JPEG, RAW, GIF, PSD, TIFF 등
 
@@ -52,7 +52,7 @@ up sampling - 디지털 영상 확대 (interpolation)
 
 quantization - 픽셀의 밝기나 색상값을 몇단계 양자화된 표본값으로 결정 (quantization bits)
 
-ch4 point processing
+## ch4 point processing
 
 contrast, clamping, wraping
 
@@ -68,17 +68,17 @@ null transform, intensity contrast stretch, intensity contrast compress, posteri
 
 gamma correction, binarization, stress transform
 
-ch5 histogram
+## ch5 histogram
 
-histogram stretching, end in search, histogram equalized, histogram specification
+histogram stretching, end in search, histogram equalization, histogram specification
 
-ch6 convolution processing
+## ch6 convolution processing
 
 embossing, blurring(low pass filter), sharpening(high pass filter), edge detection, noise elimination
 
 zero padding, smoothing, gaussian filter, unsharp masking, high-boost filter
 
-ch7 edge detection
+## ch7 edge detection
 
 homogeneity operator, difference operator, threshold, shift difference, diff_operator_hor
 
@@ -88,13 +88,13 @@ compass gradient operator, laplacian, log(laplacian of gaussian), dog(difference
 
 color image edge detection
 
-ch8 geometric processing
+## ch8 geometric processing
 
 forward, backward mapping, shift, transformation, matching, overlap, hole
 
 interpolation - nearest neighbor, bilinear, cubic convolution, b-spline
 
-scaling
+### scaling
 
 magnification, scaling up, zooming, up samling
 
@@ -108,7 +108,7 @@ aliasing - blurring으로 해결
 
 median sub sampling, mean sub sampling
 
-ch9
+## ch9
 
 translation, mirroring hor, mirroring ver, rotation
 
@@ -116,7 +116,7 @@ warping, rubber sheet transform, mesh warping
 
 morphing, cross-dissolve, transfer morphing, distorted morphing
 
-ch10 frame processing
+## ch10 frame processing
 
 combination processing, composition processing
 
@@ -130,7 +130,7 @@ frame to frame prediction, motion prediction, motion compensation
 
 intra picture, predicted pictures, bi-directional predicted pictures
 
-ch11 morphology
+## ch11 morphology
 
 이동, 반사
 
@@ -146,11 +146,11 @@ skeletonization
 
 gray erosion, gray dilation
 
-ch12 filter
+## ch12 filter
 
 finite impulse response, infinite impulse response, convolution
 
-spatial filtering
+### spatial filtering
 
 low pass filter, gaussian filter
 
@@ -170,7 +170,7 @@ opening filter - min -> max
 
 closing filter - max -> min
 
-ch13 image transformation
+## ch13 image transformation
 
 fourier transform, discrete fourier transformation, fast fourier transformation
 
@@ -186,7 +186,7 @@ lpf frequency, hpf frequency
 
 wavelet transformation, daubechies, octave tree structure
 
-ch14 digital image compression
+## ch14 digital image compression
 
 encoding, decoding
 
