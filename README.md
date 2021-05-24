@@ -56,11 +56,11 @@ quantization - 픽셀의 밝기나 색상값을 몇단계 양자화된 표본값
 
 contrast, clamping, wraping
 
-arithmetic operation
+### arithmetic operation
 
 sum constant, sub constant, mul constant, div constant
 
-logical operation
+### logical operation
 
 and operate(mask), or operate(selective-set), xor operate(compare), not(negative transform)
 
@@ -100,9 +100,9 @@ magnification, scaling up, zooming, up samling
 
 minification, scaling down, decimation, down sampling
 
-linear geometric transformation - translation, rotation, scaling
+### linear geometric transformation - translation, rotation, scaling
 
-nonlinear geometric transformation - warping, morphing
+### nonlinear geometric transformation - warping, morphing
 
 aliasing - blurring으로 해결
 
@@ -156,11 +156,11 @@ low pass filter, gaussian filter
 
 high pass filter, sharpening filter
 
-linear spatial filtering noise elimination
+### linear spatial filtering noise elimination
 
 mean filter
 
-nonlinear spatial filtering noise elimination
+### nonlinear spatial filtering noise elimination
 
 median filter, weighted median filter
 
@@ -172,19 +172,19 @@ closing filter - max -> min
 
 ## ch13 image transformation
 
-fourier transform, discrete fourier transformation, fast fourier transformation
+### fourier transform, discrete fourier transformation, fast fourier transformation
 
 scrambling, butterfly, fft, ifft
 
 spectrum, shuffling
 
-discrete cosine transform
+### discrete cosine transform
 
 convolution theorem
 
 lpf frequency, hpf frequency
 
-wavelet transformation, daubechies, octave tree structure
+### wavelet transformation, daubechies, octave tree structure
 
 ## ch14 digital image compression
 
@@ -192,11 +192,11 @@ encoding, decoding
 
 statistical, subjective, spatial, temporal redundancy
 
-lossless, entropy coding, source coding, differential coding
+### lossless, entropy coding, source coding, differential coding
 
 huffman coding - variable length conding, prefix property
 
-loss, interpolation, quantization, dct, wavelet transform
+### loss, interpolation, quantization, dct, wavelet transform
 
 jpeg(joint photographic experts group)
 
