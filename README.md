@@ -100,9 +100,13 @@ magnification, scaling up, zooming, up samling
 
 minification, scaling down, decimation, down sampling
 
-### linear geometric transformation - translation, rotation, scaling
+### linear geometric transformation
 
-### nonlinear geometric transformation - warping, morphing
+translation, rotation, scaling
+
+### nonlinear geometric transformation
+
+warping, morphing
 
 aliasing - blurring으로 해결
 
