@@ -1,4 +1,4 @@
-# image_processing
+# image processing
 
 ## ch1
 
